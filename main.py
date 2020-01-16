@@ -1,5 +1,4 @@
 import jieba
-import jsonpickle
 import random
 import tantivy
 import telegram.ext
