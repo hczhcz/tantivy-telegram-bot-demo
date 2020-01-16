@@ -145,7 +145,7 @@ def main():
                         update.message.reply_sticker(doc['sticker'][0])
         except:
             traceback.print_exc()
-            error_handler(bot, update, 'internal error')
+            log.error(update, 'internal error')
 
     # start the bot
 
